@@ -30,6 +30,7 @@ q6.connect(q7, ";")
 # q7.connect(q9, "^")
 q8.connect(q8, "[0-9]")
 q8.connect(q9, " ")
+q8.connect(q7, ";")
 
 # Test strings
 q0.start('x = "emre;')
